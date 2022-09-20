@@ -11,7 +11,7 @@ public class Lab03vst
 		System.out.println("Lab03, 100 Point Version\n");
 		int millisec = 10000123;
 		System.out.println("Starting Milli Seconds:" +millisec);
-		System.out.println("Hours :" +millisec/360000);
+		System.out.println("Hours :" +millisec/3600000);
 		int millisec2 = millisec%3600000;
 		System.out.println("Minutes:" +millisec2/60000);
 		int millisec3 = millisec2%60000;
