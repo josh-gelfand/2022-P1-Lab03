@@ -8,13 +8,15 @@ public class Lab03vst
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Lab03, 80 Point Version\n");
-		int sec = 10000;
-		System.out.println("Starting Seconds:" +sec);
-		System.out.println("Hours :" +sec/3600);
-		int secafter = sec%3600;
-		System.out.println("Minutes:" +secafter/60);
-		System.out.println("Seconds:" +secafter%60);
+		System.out.println("Lab03, 100 Point Version\n");
+		int millisec = 10000123;
+		System.out.println("Starting Milli Seconds:" +millisec);
+		System.out.println("Hours :" +millisec/360000);
+		int millisec2 = millisec%3600000;
+		System.out.println("Minutes:" +millisec2/60000);
+		int millisec3 = millisec2%60000;
+		System.out.println("Seconds:" +millisec3/1000);
+		System.out.println("Milli-seconds:" +millisec3%1000);
 
 
 	}
